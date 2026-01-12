@@ -85,7 +85,7 @@ def user_input(user_question):
 # ------------------ STREAMLIT FRONTEND ------------------
 def main():
     st.set_page_config(page_title="PDF Chat using Gemini", layout="wide")
-    st.header("📄 Chat with PDF using Gemini 2.5")
+    st.header("📄 Chat with PDF")
 
     user_question = st.text_input("Ask a question from the uploaded PDFs")
     if user_question:
